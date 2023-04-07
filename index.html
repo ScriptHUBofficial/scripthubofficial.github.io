@@ -1,1 +1,327 @@
-test 1453 !
+<script>
+    var musics = {
+        sarki1: "https://mp3semticdn.com/mp3_files/Mehter-Marslari/Sarkilar-Muzikler/Mehter-Marslari-Ceddin-Deden.mp3"
+    }
+    var info = {
+        site_icon: "https://play-lh.googleusercontent.com/5OMYqkrC6ohp_ZanBdSsyfQMQpXC_huVFD4CXSWV_YTbrLHaRlwWcaETJ6XtPte91gI=w240-h480-rw" ,
+        sayfa_baslik: "This site has been hacked - ! Muhammed & Angarali Joo",
+        baslik: "Hello Admin ! This site has been hacked",
+        mesaj: "Access to this site has been blocked. Goodbye, see you again.",
+        uyeler: "! Muhammed & Angarali Joo",
+        muzik: musics.sarki1,
+    }
+</script>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+	<meta name="Author" content=""/>
+	<link rel="icon" href="" type="image/x-icon" class="site_icon" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            color: white;
+            font-family: monospace;
+            user-select: none;
+        }
+        * { margin: 0; padding: 0; }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: aqua;
+            height: 100vh;
+            overflow: hidden;
+        }
+        @keyframes gr_text {
+            0% { color: aqua; text-shadow: 1px 1px 10px aqua;  }
+            50% { color: aquamarine; text-shadow: 1px 1px 10px aquamarine; margin-left: 2px; letter-spacing: 0.1px; }
+            100% { color: aqua; text-shadow: 1px 1px 10px aqua; }
+        }
+        .header, .main, .site {
+            text-shadow: 1px 1px 10px aqua; 
+            animation: gr_text 1s linear infinite;
+        }
+        .header {
+            font-size: 30px;
+        }
+        .main {
+            font-size: 24px;
+            width: 80%;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .spoiler {
+            width: 400px;
+            height: 40px;
+            background: black;
+            border-left: 5px solid aqua;
+            border-right: 5px solid aqua;
+            border-top: 1px solid aqua;
+            border-bottom: 1px solid aqua;
+            box-shadow: 1px 1px 5px aqua;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .symbol {
+            position: absolute;
+            margin-left: -50px;
+            left: 0;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+        @keyframes kayanyazi {
+          0% { left: 500px; }
+          100% { left: -200%; }
+        }
+        .spoiler_alt {
+            position: absolute;
+            overflow: hidden;
+            animation: kayanyazi 15s linear infinite;
+        }
+        .spoiler .user {
+            height: 40px;
+            line-height: 40px;
+            color: red;
+            font-size: 20px;
+        }
+        
+        .open {
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            background: #000;
+            z-index: 99;
+            padding: 20px;
+            transition: 0.5s;
+        }
+        .open.active {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .hacking-animation { height: 100%;  }
+        .dcharacter {
+            animation: type 1s linear;
+            color: #00ff00;
+        }
+        .dtext {
+            bottom: 0;
+            font-family: "Share Tech Mono", monospace;
+            color: #00ff00;
+            font-size: 16px;
+            left: 0;
+            line-height: 1.5rem;
+            padding: 2rem;
+            position: absolute;
+            right: 0;
+          }
+        .rett {
+            background: red;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top: 999;
+            top: 0;
+            left: 0;
+            background: transparent;
+            cursor: pointer;
+            display: none;
+        }
+        .rett.active { display: block; }
+
+
+        @keyframes type {
+          0% {
+            background: #fff;
+          }
+
+          5% {
+            background: transparent;
+          }
+
+          100% {
+            background: transparent;
+          }
+        }    
+    </style>
+</head>
+<body onmouseover="open_sound();">
+    <div class="open">
+        <div class="hacking-animation">
+            <pre class="hacking-animation dtext"></pre>
+        </div>
+        <div class="rett"></div>
+        <div class="att"></div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Hello Admin ! This site has been hacked</h1>
+        </div>
+        <div class="main">
+            <p> Access to this site has been blocked. Goodbye, see you again. </p>
+        </div>
+        <div class="spoiler">
+           <div class="spoiler_alt">
+                <pre class="user"></pre>
+            </div>
+        </div>
+        <div class="site">
+            ☪️ ! Muhammed & Angarali Joo ☪️
+        </div>
+        <div class="particle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div> 
+    <audio  loop autoplay="" class="music" style="display: none;">
+      <source src="" type="audio/mpeg">
+      Tarayıcınız bu özelliği desteklemiyor.
+    </audio>
+
+<script>
+    
+    document.querySelector("title").innerHTML = info.sayfa_baslik;
+    document.querySelector(".header").innerHTML = info.baslik;
+    document.querySelector(".main").innerHTML = info.mesaj;
+    document.querySelector(".user").innerHTML = info.uyeler;
+    document.querySelector(".music").src = info.muzik;
+    var link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+    link.href = info.site_icon;
+    var open = document.querySelector(".open");
+    var ret = document.querySelector(".rett");
+    
+    function open_d() {
+        open.classList.add("active");
+        
+    }
+    
+    function atr2() {
+        ret.classList.add("active");
+        ret.onclick = function() {
+            setTimeout(open_d, 2200);
+            function open_sound() {
+                document.querySelector(".music").play();
+                document.querySelector(".music").currentTime = 10;
+                document.querySelector(".music").classList.remove("music").classList.add("openmusic");
+            }
+            open_sound();
+        }
+        window.onkeydown = function() {
+            setTimeout(open_d, 2200);
+            function open_sound() {
+                document.querySelector(".music").play();
+                document.querySelector(".music").currentTime = 10;
+                document.querySelector(".music").classList.remove("music").classList.add("openmusic");
+            }
+            open_sound();
+        }
+    }
+    setTimeout(atr2, 3000)
+    
+    
+    function opened() {
+        open.classList.add("active");
+    }
+    
+    
+    
+    $(document).ready(function () {
+        const textArray = textString.split("");
+        const textElem = $(".hacking-animation .dtext");
+       
+
+      let count = 0;
+
+      setInterval(() => {
+        if (textArray[count] === "\n") {
+          textElem.append("<br>");
+        } else {
+          textElem.append(
+            `<span class="hacking-animation dcharacter">${textArray[count]}</span>`
+          );
+        }
+
+        count++;
+        if (count === textArray.length) {
+          count = 0;
+        }
+      }, 20);
+    });
+
+    var textString = `
+.
+    > Hacking... <
+    .
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+struct group_info *groups_alloc(int gidsetsize){
+  group_info->itemBlock(1 -> header) = ` + "'" + info.sayfa_baslik + "'" + `
+  group_info->itemBlock(2 -> title) = ` + "'" + info.baslik + "'" + `
+  group_info->itemBlock(3 -> text) = ` + "'" + info.mesaj + "'" + `
+  group_info->itemBlock(4 -> user) = ` + "'" + info.uyeler + "'" + `
+  atomic_set(&group_info->usage, 1);
+.... wait ......................................................................................................
+
+    continue press enter and tap the screen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    `;
+
+</script>
+</body>
+</html>

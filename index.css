@@ -1,0 +1,1180 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:5898px;
+  min-width:200px;
+  max-width:1920px;
+  margin:auto;
+  background-color:rgba(10, 10, 10, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Alt-n-Rengi-L-ks-Asl{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:62px;
+  width:331px;
+  min-width:331px;
+  height:331px;
+  margin-top:-54px;
+  margin-bottom:5621px;
+  min-height:331px;
+  content:url(assets/images/Alt_n_Rengi_L_ks_Aslan__irket_Logosu__2__1.png);
+}
+.Alt-n-Rengi-L-ks-Asl-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.right-align-1{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:1807px;
+  width:36px;
+  min-width:36px;
+  height:36px;
+  margin-top:-5831px;
+  margin-bottom:5795px;
+  min-height:36px;
+  content:url(assets/images/right_align_1.png);
+}
+.right-align-1-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.magnifier-1{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:1720px;
+  width:28px;
+  min-width:28px;
+  height:28px;
+  margin-top:-5823px;
+  margin-bottom:5795px;
+  min-height:28px;
+  content:url(assets/images/magnifier_1.png);
+}
+.magnifier-1-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.moon-1{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:1764px;
+  width:28px;
+  min-width:28px;
+  height:28px;
+  margin-top:-5823px;
+  margin-bottom:5795px;
+  min-height:28px;
+  content:url(assets/images/moon_1.png);
+}
+.moon-1-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.SHOP{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:1187px;
+  width:189px;
+  min-width:189px;
+  margin-top:-5821px;
+  margin-bottom:5752px;
+  min-height:69px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  text-decoration:underline;
+  line-height:25px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.SHOP-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.CONTACT{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:1029px;
+  width:189px;
+  min-width:189px;
+  margin-top:-5821px;
+  margin-bottom:5752px;
+  min-height:69px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  text-decoration:underline;
+  line-height:25px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CONTACT-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.BLOG---NEWS{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:840px;
+  width:189px;
+  min-width:189px;
+  margin-top:-5821px;
+  margin-bottom:5752px;
+  min-height:69px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  text-decoration:underline;
+  line-height:25px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.BLOG---NEWS-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.GAMES{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:720px;
+  width:120px;
+  min-width:120px;
+  margin-top:-5821px;
+  margin-bottom:5752px;
+  min-height:69px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  text-decoration:underline;
+  line-height:25px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.GAMES-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.HOME{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:597px;
+  width:120px;
+  min-width:120px;
+  margin-top:-5821px;
+  margin-bottom:5752px;
+  min-height:69px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  text-decoration:underline;
+  line-height:25px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.HOME-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.E-N-J-O-Y-T-H-E-G-A-{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:701px;
+  width:518px;
+  min-width:518px;
+  margin-top:-5362px;
+  margin-bottom:5251px;
+  min-height:111px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:36px;
+  line-height:45px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.E-N-J-O-Y-T-H-E-G-A--outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.HATTUSA-GAMES-1{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:363px;
+  width:1193px;
+  min-width:1193px;
+  height:141px;
+  margin-top:-5306px;
+  margin-bottom:5165px;
+  min-height:141px;
+  content:url(assets/images/HATTUSA_GAMES_1.png);
+}
+.HATTUSA-GAMES-1-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.Vector-2{
+  position:relative;
+  z-index:18;
+  pointer-events:none;
+  margin-left:1259px;
+  width:332.38px;
+  min-width:332.38px;
+  height:445.17px;
+  margin-top:-5124px;
+  margin-bottom:4678.83px;
+  min-height:445.17px;
+  content:url(assets/images/Vector_2.png);
+}
+.Vector-2-outer{
+  pointer-events:none;
+  z-index:18;
+  position:relative;
+  display:flex;
+}
+.vr-1{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:85px;
+  width:885px;
+  min-width:885px;
+  height:885px;
+  margin-top:-4956px;
+  margin-bottom:4071px;
+  min-height:885px;
+  content:url(assets/images/vr_1.png);
+}
+.vr-1-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.WE-DEVELOPED-GAMES{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:1040px;
+  width:501px;
+  min-width:501px;
+  margin-top:-4761px;
+  margin-bottom:4644px;
+  min-height:117px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:80px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.WE-DEVELOPED-GAMES-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Vector-1{
+  position:relative;
+  z-index:17;
+  pointer-events:none;
+  margin-left:1055px;
+  width:197.71px;
+  min-width:197.71px;
+  height:217.3px;
+  margin-top:-4499px;
+  margin-bottom:4281.7px;
+  min-height:217.3px;
+  content:url(assets/images/Vector_1.png);
+}
+.Vector-1-outer{
+  pointer-events:none;
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.CREATIVE-GAMEPLAY-AN{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:1291px;
+  width:501px;
+  min-width:501px;
+  margin-top:-4499px;
+  margin-bottom:4378px;
+  min-height:121px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:80px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CREATIVE-GAMEPLAY-AN-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Vector-3{
+  position:relative;
+  z-index:20;
+  pointer-events:none;
+  margin-left:1356px;
+  width:296.91px;
+  min-width:296.91px;
+  height:352.13px;
+  margin-top:-4213px;
+  margin-bottom:3860.87px;
+  min-height:352.13px;
+  content:url(assets/images/Vector_3.png);
+}
+.Vector-3-outer{
+  pointer-events:none;
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.OUR-PROJECTS{
+  position:relative;
+  z-index:19;
+  pointer-events:none;
+  margin-left:722px;
+  width:760px;
+  min-width:760px;
+  margin-top:-3960px;
+  margin-bottom:3745px;
+  min-height:215px;
+  text-align:left;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:80px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.OUR-PROJECTS-outer{
+  pointer-events:none;
+  z-index:19;
+  position:relative;
+  display:flex;
+}
+.OUR-PROJECTS-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:80px;
+}
+.OUR-PROJECTS-2{
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  text-decoration:underline;
+  line-height:80px;
+}
+.mmgear-1{
+  position:relative;
+  z-index:21;
+  pointer-events:none;
+  margin-left:322px;
+  width:411px;
+  min-width:411px;
+  height:731px;
+  margin-top:-3817px;
+  margin-bottom:3086px;
+  min-height:731px;
+  content:url(assets/images/mmgear_1.png);
+}
+.mmgear-1-outer{
+  pointer-events:none;
+  z-index:21;
+  position:relative;
+  display:flex;
+}
+.MM-Gear-MM-Gears-is-{
+  position:relative;
+  z-index:22;
+  pointer-events:none;
+  margin-left:828px;
+  width:772px;
+  min-width:772px;
+  margin-top:-3592px;
+  margin-bottom:3144px;
+  min-height:448px;
+  text-align:left;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:nullpx;
+  line-height:16.5px;
+}
+.MM-Gear-MM-Gears-is--outer{
+  pointer-events:none;
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.MM-Gear-MM-Gears-is--1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:16.5px;
+}
+.MM-Gear-MM-Gears-is--2{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  line-height:16.5px;
+}
+.Rectangle-1{
+  position:relative;
+  z-index:23;
+  pointer-events:none;
+  margin-left:828px;
+  width:231px;
+  min-width:231px;
+  height:87px;
+  margin-top:-3297px;
+  margin-bottom:3210px;
+  min-height:87px;
+  background-color:rgba(255, 0, 0, 1);
+  border-radius:25px;
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.Vector-5{
+  position:relative;
+  z-index:37;
+  pointer-events:none;
+  margin-left:1380px;
+  width:258.01px;
+  min-width:258.01px;
+  height:1012px;
+  margin-top:-3280px;
+  margin-bottom:2268px;
+  min-height:1012px;
+  content:url(assets/images/Vector_5.png);
+}
+.Vector-5-outer{
+  pointer-events:none;
+  z-index:37;
+  position:relative;
+  display:flex;
+}
+.View-Games-2{
+  position:relative;
+  z-index:24;
+  pointer-events:none;
+  margin-left:874px;
+  width:214px;
+  min-width:214px;
+  margin-top:-3265px;
+  margin-bottom:3235px;
+  min-height:30px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  line-height:25px;
+}
+.View-Games-2-outer{
+  pointer-events:none;
+  z-index:24;
+  position:relative;
+  display:flex;
+}
+.SUPPORTED-BY-HATTUSA{
+  position:relative;
+  z-index:27;
+  pointer-events:none;
+  margin-left:204px;
+  width:884px;
+  min-width:884px;
+  margin-top:-2829px;
+  margin-bottom:2630px;
+  min-height:199px;
+  text-align:left;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:80px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.SUPPORTED-BY-HATTUSA-outer{
+  pointer-events:none;
+  z-index:27;
+  position:relative;
+  display:flex;
+}
+.SUPPORTED-BY-HATTUSA-1{
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  text-decoration:underline;
+  line-height:80px;
+}
+.SUPPORTED-BY-HATTUSA-2{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:64px;
+  line-height:80px;
+}
+.Vector-4{
+  position:relative;
+  z-index:28;
+  pointer-events:none;
+  margin-left:208px;
+  width:1163.75px;
+  min-width:1163.75px;
+  height:6px;
+  margin-top:-2716px;
+  margin-bottom:2710px;
+  min-height:6px;
+  content:url(assets/images/Vector_4.png);
+}
+.Vector-4-outer{
+  pointer-events:none;
+  z-index:28;
+  position:relative;
+  display:flex;
+}
+.tempo-1{
+  position:relative;
+  z-index:30;
+  pointer-events:none;
+  margin-left:803px;
+  width:441.86px;
+  min-width:441.86px;
+  height:331px;
+  margin-top:-2630px;
+  margin-bottom:2299px;
+  min-height:331px;
+  content:url(assets/images/tempo_1.png);
+}
+.tempo-1-outer{
+  pointer-events:none;
+  z-index:30;
+  position:relative;
+  display:flex;
+}
+.canak-1{
+  position:relative;
+  z-index:29;
+  pointer-events:none;
+  margin-left:210px;
+  width:495px;
+  min-width:495px;
+  height:331px;
+  margin-top:-2630px;
+  margin-bottom:2299px;
+  min-height:331px;
+  content:url(assets/images/canak_1.png);
+}
+.canak-1-outer{
+  pointer-events:none;
+  z-index:29;
+  position:relative;
+  display:flex;
+}
+.Tempo-Poker{
+  position:relative;
+  z-index:32;
+  pointer-events:none;
+  margin-left:919px;
+  width:689px;
+  min-width:689px;
+  margin-top:-2278px;
+  margin-bottom:2214px;
+  min-height:64px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:32px;
+  line-height:40px;
+}
+.Tempo-Poker-outer{
+  pointer-events:none;
+  z-index:32;
+  position:relative;
+  display:flex;
+}
+.q-anak-Batak---Koz-M{
+  position:relative;
+  z-index:31;
+  pointer-events:none;
+  margin-left:204px;
+  width:689px;
+  min-width:689px;
+  margin-top:-2270px;
+  margin-bottom:2206px;
+  min-height:64px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:32px;
+  line-height:40px;
+}
+.q-anak-Batak---Koz-M-outer{
+  pointer-events:none;
+  z-index:31;
+  position:relative;
+  display:flex;
+}
+.Are-you-ready-for-an{
+  position:relative;
+  z-index:34;
+  pointer-events:none;
+  margin-left:810px;
+  width:589px;
+  min-width:589px;
+  margin-top:-2206px;
+  margin-bottom:1999px;
+  min-height:207px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  line-height:25px;
+}
+.Are-you-ready-for-an-outer{
+  pointer-events:none;
+  z-index:34;
+  position:relative;
+  display:flex;
+}
+.With-its-easy-to-use{
+  position:relative;
+  z-index:33;
+  pointer-events:none;
+  margin-left:210px;
+  width:513px;
+  min-width:513px;
+  margin-top:-2197px;
+  margin-bottom:2061px;
+  min-height:136px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  line-height:25px;
+}
+.With-its-easy-to-use-outer{
+  pointer-events:none;
+  z-index:33;
+  position:relative;
+  display:flex;
+}
+.Rectangle-3{
+  position:relative;
+  z-index:35;
+  pointer-events:none;
+  margin-left:803px;
+  width:231px;
+  min-width:231px;
+  height:87px;
+  margin-top:-1924px;
+  margin-bottom:1837px;
+  min-height:87px;
+  background-color:rgba(255, 0, 0, 1);
+  border-radius:25px;
+}
+.Rectangle-3-outer{
+  pointer-events:none;
+  z-index:35;
+  position:relative;
+  display:flex;
+}
+.Rectangle-2{
+  position:relative;
+  z-index:25;
+  pointer-events:none;
+  margin-left:204px;
+  width:231px;
+  min-width:231px;
+  height:87px;
+  margin-top:-1924px;
+  margin-bottom:1837px;
+  min-height:87px;
+  background-color:rgba(255, 0, 0, 1);
+  border-radius:25px;
+}
+.Rectangle-2-outer{
+  pointer-events:none;
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.Vector-8{
+  position:relative;
+  z-index:42;
+  pointer-events:none;
+  margin-left:1163px;
+  width:527.67px;
+  min-width:527.67px;
+  height:587.31px;
+  margin-top:-1906px;
+  margin-bottom:1318.6900000000005px;
+  min-height:587.31px;
+  content:url(assets/images/Vector_8.png);
+}
+.Vector-8-outer{
+  pointer-events:none;
+  z-index:42;
+  position:relative;
+  display:flex;
+}
+.View-Games{
+  position:relative;
+  z-index:36;
+  pointer-events:none;
+  margin-left:849px;
+  width:214px;
+  min-width:214px;
+  margin-top:-1892px;
+  margin-bottom:1862px;
+  min-height:30px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  line-height:25px;
+}
+.View-Games-outer{
+  pointer-events:none;
+  z-index:36;
+  position:relative;
+  display:flex;
+}
+.View-Games-1{
+  position:relative;
+  z-index:26;
+  pointer-events:none;
+  margin-left:250px;
+  width:214px;
+  min-width:214px;
+  margin-top:-1892px;
+  margin-bottom:1862px;
+  min-height:30px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:20px;
+  line-height:25px;
+}
+.View-Games-1-outer{
+  pointer-events:none;
+  z-index:26;
+  position:relative;
+  display:flex;
+}
+.Vector-7{
+  position:relative;
+  z-index:41;
+  pointer-events:none;
+  margin-left:882px;
+  width:75.74px;
+  min-width:75.74px;
+  height:403px;
+  margin-top:-1763px;
+  margin-bottom:1360px;
+  min-height:403px;
+  content:url(assets/images/Vector_7.png);
+}
+.Vector-7-outer{
+  pointer-events:none;
+  z-index:41;
+  position:relative;
+  display:flex;
+}
+.Vector-6{
+  position:relative;
+  z-index:40;
+  pointer-events:none;
+  margin-left:69px;
+  width:339.17px;
+  min-width:339.17px;
+  height:417.57px;
+  margin-top:-1761px;
+  margin-bottom:1343.4300000000003px;
+  min-height:417.57px;
+  content:url(assets/images/Vector_6.png);
+}
+.Vector-6-outer{
+  pointer-events:none;
+  z-index:40;
+  position:relative;
+  display:flex;
+}
+.meeting-1{
+  position:relative;
+  z-index:39;
+  pointer-events:none;
+  margin-left:380px;
+  width:198px;
+  min-width:198px;
+  height:198px;
+  margin-top:-1326px;
+  margin-bottom:1128px;
+  min-height:198px;
+  content:url(assets/images/meeting_1.png);
+}
+.meeting-1-outer{
+  pointer-events:none;
+  z-index:39;
+  position:relative;
+  display:flex;
+}
+.strategy-development{
+  position:relative;
+  z-index:38;
+  pointer-events:none;
+  margin-left:1312px;
+  width:198px;
+  min-width:198px;
+  height:198px;
+  margin-top:-1326px;
+  margin-bottom:1128px;
+  min-height:198px;
+  content:url(assets/images/strategy_development_1.png);
+}
+.strategy-development-outer{
+  pointer-events:none;
+  z-index:38;
+  position:relative;
+  display:flex;
+}
+.HATTUSA-GAMES-2{
+  position:relative;
+  z-index:49;
+  pointer-events:none;
+  margin-left:836px;
+  width:198px;
+  min-width:198px;
+  height:198px;
+  margin-top:-1316px;
+  margin-bottom:1118px;
+  min-height:198px;
+  content:url(assets/images/HATTUSA_GAMES_2.png);
+}
+.HATTUSA-GAMES-2-outer{
+  pointer-events:none;
+  z-index:49;
+  position:relative;
+  display:flex;
+}
+.VR-GAMES{
+  position:relative;
+  z-index:43;
+  pointer-events:none;
+  margin-left:380px;
+  width:267px;
+  min-width:267px;
+  margin-top:-1082px;
+  margin-bottom:1041px;
+  min-height:41px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:40px;
+  line-height:50px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.VR-GAMES-outer{
+  pointer-events:none;
+  z-index:43;
+  position:relative;
+  display:flex;
+}
+.Design---Strategy{
+  position:relative;
+  z-index:44;
+  pointer-events:none;
+  margin-left:1276px;
+  width:392px;
+  min-width:392px;
+  margin-top:-1052px;
+  margin-bottom:1011px;
+  min-height:41px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:40px;
+  line-height:50px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Design---Strategy-outer{
+  pointer-events:none;
+  z-index:44;
+  position:relative;
+  display:flex;
+}
+.Multiplayer-Experien{
+  position:relative;
+  z-index:45;
+  pointer-events:none;
+  margin-left:722px;
+  width:476px;
+  min-width:476px;
+  margin-top:-1051px;
+  margin-bottom:1010px;
+  min-height:41px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:40px;
+  line-height:50px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Multiplayer-Experien-outer{
+  pointer-events:none;
+  z-index:45;
+  position:relative;
+  display:flex;
+}
+.Meet-the-vr-games-we{
+  position:relative;
+  z-index:46;
+  pointer-events:none;
+  margin-left:355px;
+  width:308px;
+  min-width:308px;
+  margin-top:-1023px;
+  margin-bottom:957px;
+  min-height:66px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:24px;
+  line-height:30px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Meet-the-vr-games-we-outer{
+  pointer-events:none;
+  z-index:46;
+  position:relative;
+  display:flex;
+}
+.Enjoy-playing-games-{
+  position:relative;
+  z-index:47;
+  pointer-events:none;
+  margin-left:786px;
+  width:347px;
+  min-width:347px;
+  margin-top:-981px;
+  margin-bottom:915px;
+  min-height:66px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 0, 0, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:24px;
+  line-height:30px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Enjoy-playing-games--outer{
+  pointer-events:none;
+  z-index:47;
+  position:relative;
+  display:flex;
+}
+.Enjoy-the-game-with-{
+  position:relative;
+  z-index:48;
+  pointer-events:none;
+  margin-left:1318px;
+  width:308px;
+  min-width:308px;
+  margin-top:-969px;
+  margin-bottom:903px;
+  min-height:66px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Lexend;
+  font-weight:700;
+  font-size:24px;
+  line-height:30px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Enjoy-the-game-with--outer{
+  pointer-events:none;
+  z-index:48;
+  position:relative;
+  display:flex;
+}
